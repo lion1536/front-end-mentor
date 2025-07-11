@@ -148,6 +148,24 @@
         margin: 0 0 0 10px;
         height: 2rem;
       }
+
+      @media (max-width: 375px) {
+        body {
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+        }
+
+        #grid-container {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 90vw;
+          height: 100vh;
+        }
+
+        #item1 {
+          grid-column: auto;
+        }
+      }
     </style>
   </head>
   <body>
